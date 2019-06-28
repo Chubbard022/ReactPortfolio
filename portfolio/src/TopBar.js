@@ -9,7 +9,7 @@ class TopBar extends Component{
     }
     render(){
         return(
-            <div className="sidebar">
+            <div className="topbar">
                 <h1>TopBar</h1>
             </div>
         )

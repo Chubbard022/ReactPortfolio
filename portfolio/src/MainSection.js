@@ -9,7 +9,7 @@ class MainSection extends Component{
     }
     render(){
         return(
-            <div className="sidebar">
+            <div className="mainSection">
                 <h1>MainSection</h1>
             </div>
         )
