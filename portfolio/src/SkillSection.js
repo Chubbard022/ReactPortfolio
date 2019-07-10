@@ -10,7 +10,22 @@ class SkillSection extends Component{
     render(){
         return(
             <div className="skills">
-            <h1>SKILL SECTION</h1>
+            <h1>Skills</h1>
+            <div className="skill-list">
+                <h3>FrontEnd</h3>
+                <p>HTML5</p>
+                <p>CSS3</p>    
+            </div>
+            <div className="skill-list">
+                <h3>Backend</h3>
+                <p>Express</p>
+                <p>Node.js</p>    
+            </div>
+            <div className="skill-list">
+                <h3>software development</h3>
+                <p>Python</p>
+                <p>Django</p>    
+            </div>
             </div>
         )
     }
