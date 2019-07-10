@@ -11,7 +11,7 @@ class TopBar extends Component{
         return(
             <div className="topbar">
                 <h1>TopBar</h1>
-                <img src="../images/background.jpeg" alt="photo" />
+                <img src="../images/background" alt="photo" />
                 <h1>Curtis Hubbard</h1>
                 <h4>Full Stack Web Developer From Oregon</h4>
                 <p>

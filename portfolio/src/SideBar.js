@@ -11,6 +11,29 @@ class SideBar extends Component{
         return(
             <div className="sidebar">
                 <h1>SideBar</h1>
+                <div className="articles">
+                    <h3>Articles</h3>
+                    <img src="" alt="img"/>
+                    <h5>Imposter Syndrome</h5>
+                    <br/>
+                    <img src="" alt="img"/>
+                    <h5>Starting to program</h5>
+                </div>
+                <div className="getInTouch">
+                    <h3>Get In Touch</h3>
+                    <p>
+                        if you would like to get in touch with me. 
+                        please leave me an email or contact me through 
+                        my social media
+                    </p>
+                    <a>
+                        curtis.hubbard.programming@gmail.com
+                    </a>
+                    <br/>
+                    <a>
+                    Eugene Oregon
+                    </a>
+                </div>
             </div>
         )
     }
