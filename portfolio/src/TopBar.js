@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 import './App.css';
 
-
+import background from "../src/images/background.jpg"
 
 class TopBar extends Component{
     state={
@@ -20,7 +20,7 @@ class TopBar extends Component{
                         </ul>
                     </header>
                 </div>
-                <img src="../images/background" alt="photo" />
+                <img src={background}d alt="photo" className="background-img" />
                 <h1>Curtis Hubbard</h1>
                 <h4>Full Stack Web Developer From Oregon</h4>
                 <p>

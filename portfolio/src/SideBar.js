@@ -13,7 +13,7 @@ class SideBar extends Component{
                 <h1>SideBar</h1>
                 <div className="articles">
                     <h3>Articles</h3>
-                    <img src="" alt="img"/>
+                    <img src="" alt=""/>
                     <h5>Imposter Syndrome</h5>
                     <br/>
                     <img src="../images/background.jpeg" alt="photo"/>
