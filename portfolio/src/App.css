@@ -2,17 +2,11 @@
   border:5px solid black;
   margin:10px;
   display:flex;
+  background-color: rgb(252, 247, 247);
 }
 .topbar{
   border:1px solid red;
-}
-.sidebar{
-  border:1px solid red;
-
-}
-.mainSection{
-  border:1px solid red;
-
+  padding:10px;
 }
 .background-img{
   width:60%;
@@ -35,7 +29,15 @@ text-decoration: none;
 }
 .sidebar{
  max-width:20%;
+ border:1px solid red;
+ background-color: rgb(84, 157, 199);
+ opacity: 50%;
 }
 .mainSection{
-
+  padding:10px;
+  border:1px solid red;
+}
+.skills{
+  border:1px solid blue;
+  padding: 10px;
 }
