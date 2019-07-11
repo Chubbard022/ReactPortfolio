@@ -1,6 +1,7 @@
 import React,{ Component } from 'react';
 import SideBar from "./SideBar"
 import TopBar from "./TopBar"
+import Portfolio from "./Portfolio"
 import MainSection from "./MainSection"
 import SkillSection from "./SkillSection"
 import './App.css';
@@ -15,6 +16,7 @@ class App extends Component {
     <div className="app">
       <SideBar/>
       <div className="mainSection">
+      <Portfolio/>
         <TopBar/>
         <MainSection/>
         <SkillSection/>

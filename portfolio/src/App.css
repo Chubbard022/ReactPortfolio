@@ -23,6 +23,7 @@
 }
 .button{
   text-decoration: none;
+  
 }
 .actions{
 text-decoration: none; 
@@ -40,4 +41,7 @@ text-decoration: none;
 .skills{
   border:1px solid blue;
   padding: 10px;
+}
+.email{
+  font-size: 10px;
 }

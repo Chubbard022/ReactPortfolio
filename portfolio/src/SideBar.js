@@ -26,8 +26,8 @@ class SideBar extends Component{
                         please leave me an email or contact me through 
                         my social media
                     </p>
-                    <a>
-                        curtis.hubbard.programming@gmail.com
+                    <a className="email" >
+                        chubbard02@gmial.com
                     </a>
                     <br/>
                     <a>
