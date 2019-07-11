@@ -16,7 +16,7 @@ class SideBar extends Component{
                     <img src="" alt="img"/>
                     <h5>Imposter Syndrome</h5>
                     <br/>
-                    <img src="" alt="img"/>
+                    <img src="../images/background.jpeg" alt="photo"/>
                     <h5>Learning from Bootcamp and University</h5>
                 </div>
                 <div className="getInTouch">

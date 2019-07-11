@@ -11,6 +11,15 @@ class TopBar extends Component{
         return(
             <div className="topbar">
                 <h1>TopBar</h1>
+                <div className = "socialMedia">
+                    <header id="header">
+                        <ul class="icons">
+                            <li><a href="https://twitter.com/qewgj" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/curtis-hubbard-945764158/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/chubbard022" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                        </ul>
+                    </header>
+                </div>
                 <img src="../images/background" alt="photo" />
                 <h1>Curtis Hubbard</h1>
                 <h4>Full Stack Web Developer From Oregon</h4>
