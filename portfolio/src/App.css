@@ -5,7 +5,6 @@
   background-color: rgb(252, 247, 247);
 }
 .topbar{
-  border:1px solid red;
   padding:10px;
 }
 .background-img{
@@ -21,9 +20,18 @@
 .slackrPhoto{
   width:60%;
 }
+.projects{
+  border:1px solid black;
+  padding:10px;
+  width:44%;
+}
 .button{
   text-decoration: none;
-  
+  margin:10px;
+  padding:5px;
+  font-size: 12px;
+  border:2px solid rgb(83, 83, 206);
+  border-radius: 5px;
 }
 .actions{
 text-decoration: none; 
@@ -31,12 +39,31 @@ text-decoration: none;
 .sidebar{
  max-width:20%;
  border:1px solid red;
- background-color: rgb(84, 157, 199);
+ background-color: rgb(123, 172, 228);
  opacity: 50%;
 }
 .mainSection{
   padding:10px;
   border:1px solid red;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.title{
+  width:100%;
+
+}
+.header{
+  display: flex;
+  justify-content: flex-end;
+}
+.icons{
+  margin:10px 5px 10px 5px;
+}
+.bottom-section{
+  border-top: 4px solid rgb(123, 172, 228);
+  padding-top: 10px;
 }
 .skills{
   border:1px solid blue;

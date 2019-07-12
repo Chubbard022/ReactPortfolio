@@ -10,27 +10,26 @@ class TopBar extends Component{
     render(){
         return(
             <div className="topbar">
-                <h1>TopBar</h1>
                 <div className = "socialMedia">
-                    <header id="header">
-                        <ul class="icons">
-                            <li><a href="https://twitter.com/qewgj" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                            <li><a href="https://www.linkedin.com/in/curtis-hubbard-945764158/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                            <li><a href="https://github.com/chubbard022" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                        </ul>
+                    <header class="header">
+                            <a href="https://twitter.com/qewgj"><i class="fab fa-twitter icons"></i></a>
+                            <a href="https://www.linkedin.com/in/curtis-hubbard-945764158/"><i class="fab fa-linkedin icons"></i></a>
+                            <a href="https://github.com/chubbard022"><i class="fab fa-github icons"></i></a>
                     </header>
                 </div>
-                <img src={background}d alt="photo" className="background-img" />
-                <h1>Curtis Hubbard</h1>
-                <h4>Full Stack Web Developer From Oregon</h4>
-                <p>
-                    My name is Curtis Hubbard, I am a 22 year old full stack 
-                    developer from Eugene Oregon. I have been programming for four years.
-                    I started to program while attending College at Lane Community college and Oregon 
-                    State University for three years. After attending college for three years, I attended 
-                    Lambda School's code bootcamp for nine months.
-                </p>
-                <button class ="button">Link To Resume</button>
+                <div className="bottom-section">
+                    <img src={background}d alt="photo" className="background-img" />
+                    <h1>Curtis Hubbard</h1>
+                    <h4>Full Stack Web Developer From Oregon</h4>
+                    <p>
+                        My name is Curtis Hubbard, I am a 22 year old full stack 
+                        developer from Eugene Oregon. I have been programming for four years.
+                        I started to program while attending College at Lane Community college and Oregon 
+                        State University for three years. After attending college for three years, I attended 
+                        Lambda School's code bootcamp for nine months.
+                    </p>
+                    <button class ="button">Link To Resume</button>
+                </div>
             </div>
         )
     }
