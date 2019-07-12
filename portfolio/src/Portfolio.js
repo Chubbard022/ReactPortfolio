@@ -1,12 +1,12 @@
 import React,{ Component } from 'react';
 
-import resume from "../images/portfolio.pdf"
+import picture from "./images/portfolio.pdf"
 
 class Portfolio extends Component{
     render(){
         return(
             <div>
-                <object></object>
+                <object width="400" height="400" data={picture}></object>
             </div>
         )
     }
