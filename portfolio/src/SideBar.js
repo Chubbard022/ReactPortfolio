@@ -1,7 +1,8 @@
 import React,{ Component } from 'react';
 import './App.css';
 
-
+import article1 from "../src/images/imposter.jpeg"
+import article2 from "../src/images/think.jpeg"
 
 class SideBar extends Component{
     state={
@@ -11,16 +12,17 @@ class SideBar extends Component{
         return(
             <div className="sidebar">
                 <h1>SideBar</h1>
-                <div className="articles">
+                <div className="side">
                     <h3>Articles</h3>
-                    <img src="" alt=""/>
+                    <img src="article1" alt="missing puzzle piece"/>
                     <h5>Imposter Syndrome</h5>
                     <a href="https://medium.com/@chubbard02/struggles-with-imposter-syndrome-2512beb72cd2">imposter</a>
                     <br/>
-                    <img src="../images/background.jpeg" alt="photo"/>
+                    <img src="article2" alt="lightbulb inside cloud"/>
                     <h5>Learning from Bootcamp and University</h5>
+                    <a href="https://medium.com/@chubbard02/university-vs-bootcamp-learning-ac0f27d45ed">article2</a>
                 </div>
-                <div className="getInTouch">
+                <div className="side">
                     <h3>Get In Touch</h3>
                     <p>
                         if you would like to get in touch with me. 
