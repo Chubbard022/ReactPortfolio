@@ -13,18 +13,18 @@ class SkillSection extends Component{
             <h1>Skills</h1>
             <div className="skill-list">
                 <h3>FrontEnd</h3>
-                <p>HTML5</p>
-                <p>CSS3</p>    
-            </div>
+                <i class="fab fa-html5 icons"></i>
+                <i class="fab fa-css3-alt icons"></i>
+                <i class="fab fa-js-square icons"></i>
+                <i class="fab fa-less"></i>
+             </div>
             <div className="skill-list">
                 <h3>Backend</h3>
-                <p>Express</p>
-                <p>Node.js</p>    
+                <i class="fab fa-node icons"></i>   
             </div>
             <div className="skill-list">
                 <h3>software development</h3>
-                <p>Python</p>
-                <p>Django</p>    
+                <i class="fab fa-python"></i>
             </div>
             </div>
         )

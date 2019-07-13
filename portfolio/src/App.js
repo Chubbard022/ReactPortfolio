@@ -15,7 +15,7 @@ class App extends Component {
   return (
     <div className="app">
       <SideBar/>
-      <div className="mainSection">
+      <div className="mainBody">
       <Portfolio/>
         <TopBar/>
         <MainSection/>

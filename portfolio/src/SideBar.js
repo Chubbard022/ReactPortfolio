@@ -15,6 +15,7 @@ class SideBar extends Component{
                     <h3>Articles</h3>
                     <img src="" alt=""/>
                     <h5>Imposter Syndrome</h5>
+                    <a href="https://medium.com/@chubbard02/struggles-with-imposter-syndrome-2512beb72cd2">imposter</a>
                     <br/>
                     <img src="../images/background.jpeg" alt="photo"/>
                     <h5>Learning from Bootcamp and University</h5>
@@ -27,10 +28,12 @@ class SideBar extends Component{
                         my social media
                     </p>
                     <a className="email" >
+                    <i class="fas fa-envelope"></i>
                         chubbard02@gmial.com
                     </a>
                     <br/>
                     <a>
+                    <i class="fas fa-home"></i>
                     Eugene Oregon
                     </a>
                 </div>
