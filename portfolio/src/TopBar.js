@@ -18,11 +18,11 @@ class TopBar extends Component{
                     </header>
                 </div>
                 <div className="bottom-section">
-                    <img src={background}d alt="photo" className="background-img" />
                     <h1>Curtis Hubbard</h1>
-                    <h4>Full Stack Web Developer From Oregon</h4>
-                    <p>
-                        My name is Curtis Hubbard, I am a 22 year old full stack 
+                    <img className="backgroundPhoto" src={background} alt="photo" className="background-img" />
+                    <h4>Full Stack Web Developer</h4>
+                    <p className="mainParagraph">
+                        I am a 22 year old full stack 
                         developer from Eugene Oregon. I have been programming for five years.
                         I started to program while attending College at Lane Community college and Oregon 
                         State University for three years. After attending college for three years, I attended 

@@ -11,20 +11,17 @@ class SideBar extends Component{
     render(){
         return(
             <div className="sidebar">
-                <h1>SideBar</h1>
                 <div className="side">
                     <h3>Articles</h3>
-                    <img src="article1" alt="missing puzzle piece"/>
-                    <h5>Imposter Syndrome</h5>
-                    <a href="https://medium.com/@chubbard02/struggles-with-imposter-syndrome-2512beb72cd2">imposter</a>
+                    <img className="articlePhoto" src={article1} alt="missing puzzle piece"/>
+                    <a href="https://medium.com/@chubbard02/struggles-with-imposter-syndrome-2512beb72cd2">Imposter Syndrome<i class="far fa-newspaper"></i></a>
                     <br/>
-                    <img src="article2" alt="lightbulb inside cloud"/>
-                    <h5>Learning from Bootcamp and University</h5>
-                    <a href="https://medium.com/@chubbard02/university-vs-bootcamp-learning-ac0f27d45ed">article2</a>
+                    <img className="articlePhoto" src={article2} alt="lightbulb inside cloud"/>
+                    <a href="https://medium.com/@chubbard02/university-vs-bootcamp-learning-ac0f27d45ed">University Vs. Bootcamp<i class="far fa-newspaper"></i></a>
                 </div>
                 <div className="side">
                     <h3>Get In Touch</h3>
-                    <p>
+                    <p className="sideParagraph">
                         if you would like to get in touch with me. 
                         please leave me an email or contact me through 
                         my social media
