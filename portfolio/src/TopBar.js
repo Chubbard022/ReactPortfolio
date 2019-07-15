@@ -1,6 +1,12 @@
 import React,{ Component } from 'react';
 import './App.css';
-
+import {
+    BrowserRouter as Router,
+    Route,
+    Link,
+    withRouter
+  } from "react-router-dom";
+import Portfolio from "../src/Portfolio"
 import background from "../src/images/background.jpg"
 
 class TopBar extends Component{
@@ -28,7 +34,11 @@ class TopBar extends Component{
                         State University for three years. After attending college for three years, I attended 
                         Lambda School's code bootcamp for nine months.
                     </p>
-                    <button class ="button">Link To Resume</button>
+                    <button class ="button">
+                    <Link exact to="/Resume">
+                        Link To Resume
+                    </Link></button>
+                    <Route exact path="/Resume" component={Portfolio} />
                 </div>
             </div>
         )

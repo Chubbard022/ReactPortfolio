@@ -16,7 +16,6 @@ class App extends Component {
     <div className="app">
       <SideBar/>
       <div className="mainBody">
-      <Portfolio/>
         <TopBar/>
         <MainSection/>
         <SkillSection/>

@@ -13,18 +13,20 @@ class SideBar extends Component{
             <div className="sidebar">
                 <div className="side">
                     <h3>Articles</h3>
-                    <img className="articlePhoto" src={article1} alt="missing puzzle piece"/>
+                        <img className="articlePhoto" src={article1} alt="missing puzzle piece"/>
+                            <br/>
+                                <div className="articleLink">
+                                    <a  href="https://medium.com/@chubbard02/struggles-with-imposter-syndrome-2512beb72cd2" style={{color:"#919191",textDecoration:"none"}} >Imposter Syndrome<i style={{paddingLeft:"5px"}}class="far fa-newspaper"></i></a>
+                                </div>
+                            <br/>
+                        <br/>
                     <br/>
-                    <a href="https://medium.com/@chubbard02/struggles-with-imposter-syndrome-2512beb72cd2" style={{color:"#919191",textDecoration:"none"}}>Imposter Syndrome<i style={{paddingLeft:"5px"}}class="far fa-newspaper"></i></a>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <img className="articlePhoto" src={article2} alt="lightbulb inside cloud"/>
-                    <a href="https://medium.com/@chubbard02/university-vs-bootcamp-learning-ac0f27d45ed" style={{color:"#919191",textDecoration:"none"}}>University Vs. Bootcamp<i style={{paddingLeft:"5px"}} class="far fa-newspaper"></i></a>
-                    <br/>
-                    <br/>
-                    <br/>
+                        <br/>
+                            <img className="articlePhoto" src={article2} alt="lightbulb inside cloud"/>
+                                <a  href="https://medium.com/@chubbard02/university-vs-bootcamp-learning-ac0f27d45ed" style={{color:"#919191",textDecoration:"none"}}>University Vs. Bootcamp<i style={{paddingLeft:"5px"}} class="far fa-newspaper"></i></a>
+                                <br/>
+                            <br/>
+                        <br/>
                     <br/>
                     <h3>Get In Touch</h3>
                     <p className="sideParagraph">
