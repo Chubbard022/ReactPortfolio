@@ -10,9 +10,8 @@ class Portfolio extends Component{
     render(){
         return(
             <div>
-                <Link exact path="/">Home</Link>
-                <iframe src="https://resume.creddle.io/embed/lja36xtgq4"width="850" height="1100" seamless></iframe> 
-                <h1>RENDERED</h1>
+                <Router></Router>
+                {/* <a target="_blank"><iframe src="https://resume.creddle.io/embed/lja36xtgq4"width="850" height="1100" seamless target="_blank"></iframe></a> */}
             </div>
         )
     }

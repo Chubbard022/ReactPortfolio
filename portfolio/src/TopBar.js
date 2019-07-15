@@ -35,9 +35,8 @@ class TopBar extends Component{
                         Lambda School's code bootcamp for nine months.
                     </p>
                     <button class ="button">
-                    <Link exact to="/Resume">
-                        Link To Resume
-                    </Link></button>
+                     <a style={{textDecoration:"none"}}target="_blank" href="https://resume.creddle.io/embed/lja36xtgq4"width="850" height="1100" seamless target="_blank">Link to Resume</a>
+                   </button>
                     <Route exact path="/Resume" component={Portfolio} />
                 </div>
             </div>
