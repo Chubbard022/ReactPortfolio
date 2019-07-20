@@ -25,8 +25,8 @@ class TopBar extends Component{
                 </div>
                 <div className="bottom-section">
                     <h1>Curtis Hubbard</h1>
-                    <img className="backgroundPhoto" src={background} alt="photo" className="background-img" />
                     <h4>Full Stack Web Developer</h4>
+                    <img className="backgroundPhoto" src={background} alt="photo" className="background-img" />
                     <p className="mainParagraph">
                         I am a 22 year old full stack 
                         developer from Eugene Oregon. I have been programming for five years.
